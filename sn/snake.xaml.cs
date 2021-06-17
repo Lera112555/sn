@@ -75,14 +75,14 @@ namespace sn
                 p[0].Y = p[1].Y + 10;
             }
 
-            SolidColorBrush b = new SolidColorBrush(Color.Blue); 
+            SolidColorBrush b = new SolidColorBrush(Color.Blue); //шутка мем 
             for (int i = 0; i<len; i++)
             {
                 e.Graphics.FillEllipse(b, p[i].X, p[i].Y, 10, 10); 
             }
 
 
-            SolidColorBrush b1 = new SolidColorBrush(Color.Red); 
+            SolidColorBrush b1 = new SolidColorBrush(Color.Red);// одной прграмме работает, в этой нет 
             e.Graphics.FillEllipse(b1, Apple.X, Apple.Y, 10, 10); 
 
             if (p[0].X == Apple.X&& p[0].Y ==Apple.Y)
